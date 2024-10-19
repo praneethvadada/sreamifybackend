@@ -12,7 +12,7 @@ app.listen(3000, () => {
   console.log("Server is running on 3000 port");
 });
 app.use("/api/auth", authRoutes);
-app.use("/api/saved", moviesRoutes);
+app.use("/api/saved", moviesRoutes); 
 
 const mongoUri = process.env.MONGODB_CONNECTION_LINK;
 
