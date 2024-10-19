@@ -17,8 +17,8 @@ app.use("/api/saved", moviesRoutes);
 // const mongoUri = process.env.MONGODB_CONNECTION_LINK;
 
 // const mongoUri =mongodb+srv://praneethvadada25:DMZy38eYUoWShVoU@cluster0.o59ta.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
-const mongoUri = 'mongodb+srv://praneethvadada25:DMZy38eYUoWShVoU@cluster0.o59ta.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
-
+// const mongoUri = 'mongodb+srv://praneethvadada25:DMZy38eYUoWShVoU@cluster0.o59ta.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
+const mongoUri = 'mongodb+srv://admin123:admin123@cluster0.koxby.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
 const connectToMongo = async () => {
   try {
     console.log("trying to connect to mongo wait...");
