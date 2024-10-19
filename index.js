@@ -21,6 +21,7 @@ const mongoUri = 'mongodb+srv://praneethvadada25:DMZy38eYUoWShVoU@cluster0.o59ta
 
 const connectToMongo = async () => {
   try {
+    console.log("trying to connect to mongo wait...");
     await mongoose.connect(mongoUri);
     console.log("Connected to mongo Successful");
   } catch (error) {
