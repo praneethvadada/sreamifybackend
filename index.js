@@ -18,7 +18,7 @@ app.use("/api/saved", moviesRoutes);
 
 // const mongoUri =mongodb+srv://praneethvadada25:DMZy38eYUoWShVoU@cluster0.o59ta.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
 // const mongoUri = 'mongodb+srv://praneethvadada25:DMZy38eYUoWShVoU@cluster0.o59ta.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
-const mongoUri = 'mongodb+srv://admin123:admin123@cluster0.koxby.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
+//const mongoUri = 'mongodb+srv://admin123:admin123@cluster0.koxby.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
 const mongoUri = 'mongodb+srv://vadadapraneeth2020:admin100@cluster0.py2n6.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
 const connectToMongo = async () => {
   try {
